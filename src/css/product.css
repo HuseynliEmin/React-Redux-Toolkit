@@ -1,0 +1,60 @@
+.image {
+    width: 150px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.card {
+    width: 180px;
+    height: 410px;
+    border: 1px solid rgb(111, 109, 109);
+    padding: 20px;
+    transition: 0.4s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card p {
+    height: 55px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.card button {
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    /* background-color: transparent; */
+    border: 1px solid lightgrey;
+    transition: 0.4s;
+}
+
+.card button:hover {
+    background-color: rgb(153, 168, 153);
+}
+
+.button {
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid rgb(147, 144, 144);
+    margin-top: 25px;
+    background-color: rgb(171, 171, 21);
+    transition: 0.4s;
+
+}
+
+.button:hover {
+    background-color: rgb(243, 243, 13)
+}
+
+@media (max-width:728px) {
+    .responsive-card {
+        flex-direction: column !important;
+    }
+}

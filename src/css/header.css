@@ -1,0 +1,75 @@
+.logo {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.logo-text {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.search-input {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px 10px;
+    outline: none;
+    margin-right: 12px;
+    background-color: transparent;
+
+}
+
+.icon svg {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f9f9f9;
+}
+
+.dropdown-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.dropdown-details {
+    flex: 1;
+}
+
+.dropdown-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.dropdown-price {
+    font-size: 13px;
+    color: #555;
+    margin: 0;
+}
